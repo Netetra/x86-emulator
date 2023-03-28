@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 getopts = "0.2.21"
+num-traits = "0.2.15"
+byteorder = "1.4.3"
