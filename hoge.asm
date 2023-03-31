@@ -1,4 +1,7 @@
 BITS 32
 start:
-    mov eax, 41
-    jmp short start
+    org 0x7c00
+    mov eax, 10
+    mov dword [eax], 20
+    mov ebx, [eax]
+    jmp 0
